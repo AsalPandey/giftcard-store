@@ -1,0 +1,86 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="giftcard_store" type="giftcard_storeType"/>
+  <xs:complexType name="addressType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="city"/>
+      <xs:element type="xs:string" name="country"/>
+      <xs:element type="xs:string" name="PostalCode"/>
+      <xs:element type="xs:string" name="streetNo"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="contactDetailsType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="mobile_no"/>
+      <xs:element type="xs:string" name="telephone_no"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="store_detailsType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="logo"/>
+      <xs:element type="xs:string" name="name"/>
+      <xs:element type="addressType" name="address"/>
+      <xs:element type="contactDetailsType" name="contactDetails"/>
+      <xs:element type="xs:anyURI" name="website"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="cardType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="title"/>
+      <xs:element type="xs:string" name="Type"/>
+      <xs:element type="xs:string" name="Price"/>
+      <xs:element type="xs:string" name="Validity"/>
+      <xs:element type="xs:string" name="No_of_Users"/>
+      <xs:element type="xs:string" name="quantity_remains"/>
+      <xs:element type="xs:string" name="Discount_voucher"/>
+      <xs:element type="xs:string" name="description"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="RestroID" use="optional"/>
+    <xs:attribute type="xs:string" name="PetrolPID" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="vouchercardType">
+    <xs:sequence>
+      <xs:element type="cardType" name="card" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="card1Type" name="card1" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="card2Type" name="card2" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="class" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="card1Type">
+    <xs:sequence>
+      <xs:element type="xs:string" name="title"/>
+      <xs:element type="xs:string" name="Type"/>
+      <xs:element type="xs:string" name="Price"/>
+      <xs:element type="xs:string" name="Validity"/>
+      <xs:element type="xs:string" name="No_of_Users"/>
+      <xs:element type="xs:string" name="quantity_remains"/>
+      <xs:element type="xs:string" name="Discount_voucher"/>
+      <xs:element type="xs:string" name="description"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="FashionID" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="card2Type">
+    <xs:sequence>
+      <xs:element type="xs:string" name="title"/>
+      <xs:element type="xs:string" name="Type"/>
+      <xs:element type="xs:string" name="Price"/>
+      <xs:element type="xs:string" name="Validity"/>
+      <xs:element type="xs:string" name="No_of_Users"/>
+      <xs:element type="xs:string" name="quantity_remains"/>
+      <xs:element type="xs:string" name="Discount_voucher"/>
+      <xs:element type="xs:string" name="description"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="CinemaID" use="optional"/>
+    <xs:attribute type="xs:string" name="DigitalShoppingID" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="giftcardsType">
+    <xs:sequence>
+      <xs:element type="vouchercardType" name="vouchercard" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="giftcard_storeType">
+    <xs:sequence>
+      <xs:element type="store_detailsType" name="store_details"/>
+      <xs:element type="giftcardsType" name="giftcards"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

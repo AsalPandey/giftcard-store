@@ -1,0 +1,166 @@
+giftcard_store{
+	display:block;
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(Background.jpg);
+	background-attachment: fixed;
+	background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+	
+}
+store_details{
+	display:block;
+	border: 5px solid rgb(192, 192, 192);
+	margin: 20px;
+	padding: 20px;
+	background-color:transparent; 
+}
+name,address,contactDetails,website{
+	display:block;
+}
+name{
+	text-decoration: underline;
+	text-align: center;
+	font-size:50px;
+	color:darkorange;
+	font-family:cursive;
+}
+address{
+	font-family:Papyrus;
+	text-align: center;
+	font-size:25px;
+	color:rgb(255, 140, 0)
+}
+contactDetails{
+	font-family:Papyrus;
+	text-align: center;
+	font-size:25px;
+	color:rgb(255, 140, 0);
+}
+website{
+	font-family:Papyrus;
+	text-align: center;
+	font-size:25px;
+	color:rgb(255, 140, 0);
+}
+
+website:hover {background-color: rgb(133, 194, 155);} 
+card{
+	
+	display:block;
+	border: 5px solid rgb(192, 192, 192);
+    display: inline-table;
+    margin-right: 35px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 45%;
+	height: 100px;
+    font-family: cursive;
+    border-radius: 25px;
+    background: rgb(85, 81, 82);
+    background: linear-gradient(90deg, rgb(82, 75, 73) 0%, rgb(250, 243, 243) 35%, rgb(93, 24, 232) 71%);
+	float: left;
+}
+card1{
+	
+	display:block;
+	border: 5px solid rgb(5, 5, 5);
+    display: inline-table;
+    margin-right: 35px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 45%;
+	height: 100px;
+    font-family: cursive;
+    border-radius: 25px;
+    background: rgb(85, 81, 82);
+    background: linear-gradient(90deg, rgb(82, 75, 73) 0%, rgb(250, 243, 243) 35%, rgb(237, 18, 171) 71%);
+	float: left;
+}
+
+card2{
+	
+	display:block;
+	border: 5px solid rgb(76, 25, 230);
+    display: inline-table;
+    margin-right: 35px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 45%;
+	height: 100px;
+    font-family: cursive;
+    border-radius: 25px;
+    background: rgb(85, 81, 82);
+    background: linear-gradient(90deg, rgb(82, 75, 73) 0%, rgb(250, 243, 243) 35%, rgb(237, 25, 18) 71%);
+	float: left;
+}
+title {	
+	font-size: 30px; 
+	display: block;
+	font-weight: bold; 
+	display:list-item; 
+	list-style:circle inside;
+	font-style: italic;
+		
+}
+Type {	 
+	font-size: 20px; 
+	font-weight: bold; 
+	display:list-item; 
+	list-style: square inside; 
+	padding-left:30px;
+}
+Price {
+	font-size: 20px; 
+	font-weight: bold; 
+	display:list-item; 
+	list-style:square inside; 
+	padding-left:30px;
+}
+Validity { 
+	font-size: 20px; 
+	font-weight: bold;  
+	display:list-item; 
+	list-style:square inside; 
+	padding-left:30px;
+}
+No_of_Users {
+	font-size: 20px; 
+	font-weight: bold; 
+	display:list-item; 
+	list-style:square inside; 
+	padding-left:30px;
+}
+quantity_remains { 
+	font-size: 20px; 
+	font-weight: bold; 
+	display:list-item; 
+	list-style:square inside; 
+	padding-left:30px;
+}
+Discount_voucher { 
+	font-size: 20px; 
+	font-weight: bold; 
+	display:list-item; 
+	list-style:square inside; 
+	padding-left:30px;
+}
+
+description { 
+	font-size: 20px; 
+	font-style: italic;
+	display:list-item; 
+	padding-left:30px;
+}
+logo{
+	 position: absolute;
+    margin-top: 50px;
+    top: 0;
+    float: left;
+    display: grid;
+    background-image: url("giftcardlogo.png");
+    background-size: 200px;
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+
+}

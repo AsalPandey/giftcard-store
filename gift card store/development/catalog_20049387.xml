@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="catalog_20049387.css"?>
+<giftcard_store xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNameSpaceSchemaLocation="catalog_20049387.xsd">
+	<store_details>
+		<logo>
+		</logo>
+		<name>London Gift Card Store</name>
+		<address>
+			<city>Islington</city>
+			<country>The United Kingdom</country>
+			<PostalCode>Postal Code: EC1R</PostalCode>
+			<streetNo>street no: 10</streetNo>
+		</address>
+		<contactDetails>
+			<mobile_no>Mbl Number: +449856578979</mobile_no>
+			<telephone_no>Tel-number: +44-577897</telephone_no>
+		</contactDetails>
+		<website>www.londongiftcardstore.com.uk</website>
+	</store_details>
+	<giftcards>
+		<vouchercard class ="Restro_gift">
+			<card RestroID="R1">
+			    <title>Foods for life! voucher</title>
+				<Type>physical voucher</Type>
+                <Price>&#163;150</Price>
+                <Validity>Validity: Upto 1 year after purchase</Validity>
+                <No_of_Users>Number of Users: 4</No_of_Users>
+                <quantity_remains>Total No. Available: 16</quantity_remains>
+                <Discount_voucher>Discount Voucher: 70 percent off on all items </Discount_voucher>
+				<description>Description:this voucher gives 70 percent off for all foods in all resturant. just show this voucher</description>
+			</card>
+			<card RestroID="R2">
+				<title>Eat Eat Eat! voucher</title>
+				<Type>Digital Card</Type>
+                <Price>&#163;170</Price>
+                <Validity>Validity: Upto 1.5 year after purchase</Validity>
+                <No_of_Users>Number of Users: 4</No_of_Users>
+                <quantity_remains>Total No. Available: 3</quantity_remains>
+                <Discount_voucher>Discount Voucher: 80 percent off on all items </Discount_voucher>
+				<description>Description:this voucher gives 80 percent off for all foods in all resturant.
+				You will receive a code which you have to give while paying</description>
+			</card>
+			<card RestroID="R3">
+				<title>hungry! voucher</title>
+				<Type>Digital Card</Type>
+                <Price>&#163;100</Price>
+                <Validity>Validity: Upto 6 month after purchase</Validity>
+                <No_of_Users>Number of Users: 2</No_of_Users>
+                <quantity_remains>Total No. Available: 98</quantity_remains>
+                <Discount_voucher>Discount Voucher: 20 percent off on all items </Discount_voucher>
+				<description>Description:this voucher gives 20 percent off for all foods in all resturant.
+				You will receive a code which you have to give while paying</description>
+			</card>
+		</vouchercard>
+		<vouchercard class ="Fashion_gift">
+			<card1 FashionID = "F1">
+				<title>Be a gentelman! voucher</title>
+				<Type>Digital Card</Type>
+                <Price>&#163;100</Price>
+                <Validity>Validity: Upto 3 month after purchase</Validity>
+                <No_of_Users>Number of Users: 1</No_of_Users>
+                <quantity_remains>Total No. Available: 66</quantity_remains>
+                <Discount_voucher>Discount Voucher: 10 percent off on all men items </Discount_voucher>
+				<description>Description:this voucher is a fashion voucher which gives 10 percent off for fashon items for men in the mall.
+				You will receive a code. Use it for discount</description>
+			</card1>
+			<card1 FashionID = "F2">
+				<title>Goggles rock! voucher</title>
+				<Type>Digital Card</Type>
+                <Price>&#163;50</Price>
+                <Validity>Validity: Upto 3 month after purchase</Validity>
+                <No_of_Users>Number of Users: 1</No_of_Users>
+                <quantity_remains>Total No. Available: 66</quantity_remains>
+                <Discount_voucher>Discount Voucher: 10 percent off on all goggle </Discount_voucher>
+				<description>Description:this voucher gives 10 percent off for goggle items in the mall.
+				You will receive a code which you have to give while paying</description>
+			</card1>
+			<card1 FashionID = "F3">
+				<title>Like A Queen! voucher</title>
+				<Type>Digital Card</Type>
+                <Price>&#163;30</Price>
+                <Validity>Validity: Upto 3 month after purchase</Validity>
+                <No_of_Users>Number of Users: 1</No_of_Users>
+                <quantity_remains>Total No. Available: 66</quantity_remains>
+                <Discount_voucher>Discount Voucher: 10 percent off on all ladies items </Discount_voucher>
+				<description>Description:this voucher gives 10 percent off for ladies fashon items in mall.
+				You will receive a code which you have to show while paying</description>
+			</card1>
+		</vouchercard>
+			<vouchercard class ="Cinema_Gift">
+
+				<card2 CinemaID = "C1">
+					<title>yay movie massive! voucher</title>
+				<Type>Digital Card</Type>
+                <Price>&#163;150</Price>
+                <Validity>Validity: Upto 6 month after purchase</Validity>
+                <No_of_Users>Number of Users: 1</No_of_Users>
+                <quantity_remains>Total No. Available: 100</quantity_remains>
+                <Discount_voucher>Discount Voucher: 20 percent off on all movies </Discount_voucher>
+				<description>Description:this voucher gives 20 percent off for movies.
+				You will receive a code which you have to show while paying for the ticket</description>
+				</card2>
+
+				<card2 CinemaID = "C2">
+
+					<title>yay movie medium! voucher</title>
+				<Type>Digital Card</Type>
+                <Price>&#163;100</Price>
+                <Validity>Validity: Upto 6 month after purchase</Validity>
+                <No_of_Users>Number of Users: 2</No_of_Users>
+                <quantity_remains>Total No. Available: 98</quantity_remains>
+                <Discount_voucher>Discount Voucher: 15 percent off on all movies </Discount_voucher>
+				<description>Description:this voucher gives 20 percent off for all foods in all resturant.
+				You will receive a code which you have to show while paying for the ticket</description>
+				</card2>
+
+				<card2 CinemaID = "C3">
+
+					<title>yay movie small! voucher</title>
+				<Type>Digital Card</Type>
+                <Price>&#163;50</Price>
+                <Validity>Validity: Upto 6 month after purchase</Validity>
+                <No_of_Users>Number of Users: 2</No_of_Users>
+                <quantity_remains>Total No. Available: 110</quantity_remains>
+                <Discount_voucher>Discount Voucher: 10 percent off on all movies </Discount_voucher>
+				<description>Description:this voucher gives 20 percent off for all foods in all resturant.
+				You will receive a code which you have to show while paying for the ticket</description>
+				</card2>
+			</vouchercard>
+
+			<vouchercard class ="PetrolP_Gift">
+				<card PetrolPID = "P1">
+					<title>1 litere petrol! voucher</title>
+				<Type>physical voucher</Type>
+                <Price>&#163;10</Price>
+                <Validity>Validity: Upto 1 year after purchase</Validity>
+                <No_of_Users>Number of Users: 1</No_of_Users>
+                <quantity_remains>Total No. Available: 50</quantity_remains>
+                <Discount_voucher> Voucher: 1 litere petrol </Discount_voucher>
+				<description>Description:this voucher gives 1 liter pertol for your veichel.
+				show it while filling the fuel while paying</description>
+				</card>
+				<card PetrolPID = "p2">
+					<title>5 litere petrol! voucher</title>
+				<Type>Digital Card</Type>
+                <Price>&#163;50</Price>
+                <Validity>Validity: Upto 1 year after purchase</Validity>
+                <No_of_Users>Number of Users: 1</No_of_Users>
+                <quantity_remains>Total No. Available: 50</quantity_remains>
+                <Discount_voucher> Voucher: 5 litere petrol </Discount_voucher>
+				<description>Description:this voucher gives 5 liter pertol for your veichel.
+				show it while filling the fuel while paying</description>
+				</card>
+				<card PetrolPID = "p3">
+					<title>20 litere petrol! voucher</title>
+				<Type>Digital Card</Type>
+                <Price>&#163;200</Price>
+                <Validity>Validity: Upto 1 year after purchase</Validity>
+                <No_of_Users>Number of Users: 1</No_of_Users>
+                <quantity_remains>Total No. Available: 20</quantity_remains>
+                <Discount_voucher> Voucher: 20 litere petrol </Discount_voucher>
+				<description>Description:this voucher gives 20 liter pertol for your veichel.
+				show it while filling the fuel while paying</description>
+				</card>
+			</vouchercard>	
+			<vouchercard class="DigitalShopping_Gift">
+				<card2 DigitalShoppingID = "D1">
+
+					<title>20 percent on mall! voucher</title>
+				<Type>Digital Card</Type>
+                <Price>&#163;100</Price>
+                <Validity>Validity: Upto 2 month after purchase</Validity>
+                <No_of_Users>Number of Users: 5</No_of_Users>
+                <quantity_remains>Total No. Available: 30</quantity_remains>
+                <Discount_voucher>Discount Voucher: 20 percent off on all items in mall</Discount_voucher>
+				<description>Description:this voucher gives 20 percent off for all items in mall.
+				You will receive a code which you have to show while paying</description>
+				</card2>
+				<card2 DigitalShoppingID = "D2">
+
+					<title>40 percent on mall! voucher</title>
+				<Type>Digital Card</Type>
+                <Price>&#163;150</Price>
+                <Validity>Validity: Upto 2 month after purchase</Validity>
+                <No_of_Users>Number of Users: 5</No_of_Users>
+                <quantity_remains>Total No. Available: 11</quantity_remains>
+                <Discount_voucher>Discount Voucher: 40 percent off on all items in mall</Discount_voucher>
+				<description>Description:this voucher gives 40 percent off for all items in mall.
+				You will receive a code which you have to show while paying</description>
+				</card2>
+				<card2 DigitalShoppingID = "D3">
+
+					<title>50 percent on mall! voucher</title>
+				<Type>Digital Card</Type>
+                <Price>&#163;200</Price>
+                <Validity>Validity: Upto 2 month after purchase</Validity>
+                <No_of_Users>Number of Users: 5</No_of_Users>
+                <quantity_remains>Total No. Available: 10</quantity_remains>
+                <Discount_voucher>Discount Voucher: 50 percent off on all items in mall</Discount_voucher>
+				<description>Description:this voucher gives 50 percent off for all items in mall.
+				You will receive a code which you have to show while paying</description>
+				</card2> 
+			</vouchercard>
+		</giftcards>
+</giftcard_store>
